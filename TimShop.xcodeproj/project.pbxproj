@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61649E021CAA57370061F28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61649E011CAA57370061F28E /* AppDelegate.swift */; };
+		61649E041CAA57370061F28E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61649E031CAA57370061F28E /* ViewController.swift */; };
+		61649E071CAA57370061F28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61649E051CAA57370061F28E /* Main.storyboard */; };
+		61649E091CAA57370061F28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61649E081CAA57370061F28E /* Assets.xcassets */; };
+		61649E0C1CAA57370061F28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61649E0A1CAA57370061F28E /* LaunchScreen.storyboard */; };
+		61649E171CAA57380061F28E /* TimShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61649E161CAA57380061F28E /* TimShopTests.swift */; };
+		61649E221CAA57380061F28E /* TimShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61649E211CAA57380061F28E /* TimShopUITests.swift */; };
+		61649E301CAA5B920061F28E /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61649E2F1CAA5B920061F28E /* AEXML.swift */; };
+		61649E321CAA5C380061F28E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61649E311CAA5C380061F28E /* SwiftyJSON.swift */; };
+		61649E341CAA62B90061F28E /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61649E331CAA62B90061F28E /* CustomCell.swift */; };
+		61649E361CAA76310061F28E /* Shop-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 61649E351CAA76310061F28E /* Shop-48.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61649E131CAA57380061F28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61649DF61CAA57360061F28E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61649DFD1CAA57370061F28E;
+			remoteInfo = TimShop;
+		};
+		61649E1E1CAA57380061F28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61649DF61CAA57360061F28E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61649DFD1CAA57370061F28E;
+			remoteInfo = TimShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61649DFE1CAA57370061F28E /* TimShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61649E011CAA57370061F28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61649E031CAA57370061F28E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61649E061CAA57370061F28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61649E081CAA57370061F28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61649E0B1CAA57370061F28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61649E0D1CAA57380061F28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61649E121CAA57380061F28E /* TimShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61649E161CAA57380061F28E /* TimShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimShopTests.swift; sourceTree = "<group>"; };
+		61649E181CAA57380061F28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61649E1D1CAA57380061F28E /* TimShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61649E211CAA57380061F28E /* TimShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimShopUITests.swift; sourceTree = "<group>"; };
+		61649E231CAA57380061F28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61649E2F1CAA5B920061F28E /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		61649E311CAA5C380061F28E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		61649E331CAA62B90061F28E /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		61649E351CAA76310061F28E /* Shop-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shop-48.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61649DFB1CAA57370061F28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61649E0F1CAA57380061F28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61649E1A1CAA57380061F28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61649DF51CAA57360061F28E = {
+			isa = PBXGroup;
+			children = (
+				61649E001CAA57370061F28E /* TimShop */,
+				61649E151CAA57380061F28E /* TimShopTests */,
+				61649E201CAA57380061F28E /* TimShopUITests */,
+				61649DFF1CAA57370061F28E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61649DFF1CAA57370061F28E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61649DFE1CAA57370061F28E /* TimShop.app */,
+				61649E121CAA57380061F28E /* TimShopTests.xctest */,
+				61649E1D1CAA57380061F28E /* TimShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61649E001CAA57370061F28E /* TimShop */ = {
+			isa = PBXGroup;
+			children = (
+				61649E351CAA76310061F28E /* Shop-48.png */,
+				61649E011CAA57370061F28E /* AppDelegate.swift */,
+				61649E031CAA57370061F28E /* ViewController.swift */,
+				61649E051CAA57370061F28E /* Main.storyboard */,
+				61649E081CAA57370061F28E /* Assets.xcassets */,
+				61649E0A1CAA57370061F28E /* LaunchScreen.storyboard */,
+				61649E0D1CAA57380061F28E /* Info.plist */,
+				61649E2F1CAA5B920061F28E /* AEXML.swift */,
+				61649E311CAA5C380061F28E /* SwiftyJSON.swift */,
+				61649E331CAA62B90061F28E /* CustomCell.swift */,
+			);
+			path = TimShop;
+			sourceTree = "<group>";
+		};
+		61649E151CAA57380061F28E /* TimShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				61649E161CAA57380061F28E /* TimShopTests.swift */,
+				61649E181CAA57380061F28E /* Info.plist */,
+			);
+			path = TimShopTests;
+			sourceTree = "<group>";
+		};
+		61649E201CAA57380061F28E /* TimShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61649E211CAA57380061F28E /* TimShopUITests.swift */,
+				61649E231CAA57380061F28E /* Info.plist */,
+			);
+			path = TimShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61649DFD1CAA57370061F28E /* TimShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61649E261CAA57380061F28E /* Build configuration list for PBXNativeTarget "TimShop" */;
+			buildPhases = (
+				61649DFA1CAA57370061F28E /* Sources */,
+				61649DFB1CAA57370061F28E /* Frameworks */,
+				61649DFC1CAA57370061F28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimShop;
+			productName = TimShop;
+			productReference = 61649DFE1CAA57370061F28E /* TimShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61649E111CAA57380061F28E /* TimShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61649E291CAA57380061F28E /* Build configuration list for PBXNativeTarget "TimShopTests" */;
+			buildPhases = (
+				61649E0E1CAA57380061F28E /* Sources */,
+				61649E0F1CAA57380061F28E /* Frameworks */,
+				61649E101CAA57380061F28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61649E141CAA57380061F28E /* PBXTargetDependency */,
+			);
+			name = TimShopTests;
+			productName = TimShopTests;
+			productReference = 61649E121CAA57380061F28E /* TimShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61649E1C1CAA57380061F28E /* TimShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61649E2C1CAA57380061F28E /* Build configuration list for PBXNativeTarget "TimShopUITests" */;
+			buildPhases = (
+				61649E191CAA57380061F28E /* Sources */,
+				61649E1A1CAA57380061F28E /* Frameworks */,
+				61649E1B1CAA57380061F28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61649E1F1CAA57380061F28E /* PBXTargetDependency */,
+			);
+			name = TimShopUITests;
+			productName = TimShopUITests;
+			productReference = 61649E1D1CAA57380061F28E /* TimShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61649DF61CAA57360061F28E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TimCircle;
+				TargetAttributes = {
+					61649DFD1CAA57370061F28E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					61649E111CAA57380061F28E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 61649DFD1CAA57370061F28E;
+					};
+					61649E1C1CAA57380061F28E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 61649DFD1CAA57370061F28E;
+					};
+				};
+			};
+			buildConfigurationList = 61649DF91CAA57360061F28E /* Build configuration list for PBXProject "TimShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61649DF51CAA57360061F28E;
+			productRefGroup = 61649DFF1CAA57370061F28E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61649DFD1CAA57370061F28E /* TimShop */,
+				61649E111CAA57380061F28E /* TimShopTests */,
+				61649E1C1CAA57380061F28E /* TimShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61649DFC1CAA57370061F28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61649E0C1CAA57370061F28E /* LaunchScreen.storyboard in Resources */,
+				61649E361CAA76310061F28E /* Shop-48.png in Resources */,
+				61649E091CAA57370061F28E /* Assets.xcassets in Resources */,
+				61649E071CAA57370061F28E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61649E101CAA57380061F28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61649E1B1CAA57380061F28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61649DFA1CAA57370061F28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61649E041CAA57370061F28E /* ViewController.swift in Sources */,
+				61649E301CAA5B920061F28E /* AEXML.swift in Sources */,
+				61649E341CAA62B90061F28E /* CustomCell.swift in Sources */,
+				61649E021CAA57370061F28E /* AppDelegate.swift in Sources */,
+				61649E321CAA5C380061F28E /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61649E0E1CAA57380061F28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61649E171CAA57380061F28E /* TimShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61649E191CAA57380061F28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61649E221CAA57380061F28E /* TimShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61649E141CAA57380061F28E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61649DFD1CAA57370061F28E /* TimShop */;
+			targetProxy = 61649E131CAA57380061F28E /* PBXContainerItemProxy */;
+		};
+		61649E1F1CAA57380061F28E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61649DFD1CAA57370061F28E /* TimShop */;
+			targetProxy = 61649E1E1CAA57380061F28E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61649E051CAA57370061F28E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61649E061CAA57370061F28E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61649E0A1CAA57370061F28E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61649E0B1CAA57370061F28E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61649E241CAA57380061F28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61649E251CAA57380061F28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61649E271CAA57380061F28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.timcircle.TimShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61649E281CAA57380061F28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.timcircle.TimShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61649E2A1CAA57380061F28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.timcircle.TimShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimShop.app/TimShop";
+			};
+			name = Debug;
+		};
+		61649E2B1CAA57380061F28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.timcircle.TimShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimShop.app/TimShop";
+			};
+			name = Release;
+		};
+		61649E2D1CAA57380061F28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.timcircle.TimShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimShop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		61649E2E1CAA57380061F28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TimShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.timcircle.TimShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TimShop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61649DF91CAA57360061F28E /* Build configuration list for PBXProject "TimShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61649E241CAA57380061F28E /* Debug */,
+				61649E251CAA57380061F28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61649E261CAA57380061F28E /* Build configuration list for PBXNativeTarget "TimShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61649E271CAA57380061F28E /* Debug */,
+				61649E281CAA57380061F28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61649E291CAA57380061F28E /* Build configuration list for PBXNativeTarget "TimShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61649E2A1CAA57380061F28E /* Debug */,
+				61649E2B1CAA57380061F28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61649E2C1CAA57380061F28E /* Build configuration list for PBXNativeTarget "TimShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61649E2D1CAA57380061F28E /* Debug */,
+				61649E2E1CAA57380061F28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61649DF61CAA57360061F28E /* Project object */;
+}
